@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Cookie&family=Damion&family=Kaushan+Script&family=Marck+Script&family=Playball&display=swap');
 
 :root{
-    --cor-de-fundo: #6c0c8a;
-    --roxo: #e887f5;
+    --cor-de-fundo: #0c8a8a;
+    --verde: #8be6e6;
     --branco: #ffffff;
-    --botao-ativo: #a542b3;
-    --botao-inativo: rgba(193, 142, 215, 0.585);
+    --botao-ativo: #00b1b1;
+    --botao-inativo: rgba(142, 215, 215, 0.585);
     --texto-fundo: rgba(84, 60, 90, 0.174);
 }
 
@@ -32,13 +32,13 @@ body{
 }
 
 .titulo-principal span {
-    color: var(--roxo);
+    color: var(--verde);
 }
 
 .botao {
     font-family: "Marck Script",sans-serif;
     background-color: var(--botao-inativo);
-    color: var(--roxo);
+    color: var(--verde);
     display: flex;
     justify-content: center;
     padding: 1em;
@@ -97,7 +97,7 @@ body{
     
     .aba-conteudo-titulo-secundario{
         text-align: center;
-        color: var(--roxo);
+        color: var(--verde);
         text-transform: uppercase;
     }
     .contador{
@@ -106,5 +106,5 @@ body{
         flex-wrap: wrap;
         font-size: 30px;
         margin: 0;
-        color: var(--roxo);
+        color: var(--verde);
     }
